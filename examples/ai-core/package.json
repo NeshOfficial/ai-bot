@@ -1,0 +1,31 @@
+{
+  "name": "ai-core-examples",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "latest",
+    "@ai-sdk/anthropic": "latest",
+    "@ai-sdk/azure": "latest",
+    "@ai-sdk/cohere": "latest",
+    "@ai-sdk/google": "latest",
+    "@ai-sdk/google-vertex": "latest",
+    "@ai-sdk/mistral": "latest",
+    "@ai-sdk/openai": "latest",
+    "@opentelemetry/sdk-node": "0.52.0",
+    "@opentelemetry/auto-instrumentations-node": "0.47.0",
+    "@opentelemetry/sdk-trace-node": "1.25.0",
+    "ai": "latest",
+    "dotenv": "16.4.5",
+    "mathjs": "12.4.2",
+    "zod": "3.23.8",
+    "zod-to-json-schema": "3.22.4"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.20",
+    "tsx": "4.7.1",
+    "typescript": "5.1.3"
+  }
+}
