@@ -17,7 +17,7 @@
     "@types/node": "^18",
     "@vue/reactivity": "^3.4.31",
     "@vue/runtime-core": "^3.4.31",
-    "@vue/runtime-dom": "^3.4.31",
+    "@vue/runtime-dom": "^3.4.36",
     "@vue/shared": "^3.4.31",
     "ai": "latest",
     "nuxt": "^3.12.3",
