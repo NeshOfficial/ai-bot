@@ -42,7 +42,6 @@ class Calculator:
 
     def clear_history(self):
         self.history = []
-
     @exception_handler
     def divide(self, a, b):
         if b == 0:
