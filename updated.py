@@ -30,39 +30,4 @@ def save_data_to_file(data, filename):
             file.write(f"{item}\n")
     print(f"Data saved to {filename}")
 
-class Calculator:
-    def __init__(self):
-        self.history = []
-
-    def add_to_history(self, operation, result):
-        self.history.append((operation, result))
-
-    def show_history(self):
-        return self.history
-
-    def clear_history(self):
-        self.history = []
-
-    @exception_handlerpush -i
-    def divide(self, a, b):
-        if b == 0:
-            raise ValueError("Cannot divide by zero")
-        result = a / b
-        self.add_to_history(f"divide({a}, {b})", result)
-        return result
-
-    def multiply(self, a, b):
-        result = a * b
-        self.add_to_history(f"multiply({a}, {b})", result)
-        return result
-
-if __name__ == "__main__":
-    # API Data fetching
-    url = "https://jsonplaceholder.typicode.com/posts"
-    data = fetch_data_from_api(url)
-
-    # Process numbers
-    numbers = [1, 2, 3, 4, 5, 6]
-    even_numbers = filter_even_numbers(numbers)
-    squared_numbers = square_numbers(numbers)
 
