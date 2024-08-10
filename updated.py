@@ -42,7 +42,8 @@ class Calculator:
 
     def clear_history(self):
         self.history = []
-    @exception_handler
+
+    @exception_handlerpush -i
     def divide(self, a, b):
         if b == 0:
             raise ValueError("Cannot divide by zero")
@@ -65,16 +66,3 @@ if __name__ == "__main__":
     even_numbers = filter_even_numbers(numbers)
     squared_numbers = square_numbers(numbers)
 
-    # Save processed data to file
-    save_data_to_file(even_numbers, "even_numbers.txt")
-    save_data_to_file(squared_numbers, "squared_numbers.txt")
-
-    # Calculator operations
-    calc = Calculator()
-    print(calc.divide(10, 2))
-    print(calc.multiply(5, 3))
-    print(calc.show_history())
-
-    # Display history
-    calc.clear_history()
-    print(calc.show_history())
