@@ -1,33 +1,23 @@
 import random
+import os
 
-def generate_random_numbers(count, start, end):
-    # Generate a list of random numbers
-    random_numbers = [random.randint(start, end) for _ in range(count)]
-    return random_numbers
+# Function to generate a difficult file name
 
-def print_random_operations(random_numbers):
-    # Print the generated random numbers
-    print("Generated Random Numbers:", random_numbers)
+# Function to write 50 lines to a file
+def write_lines_to_file(filename, num_lines=50):
+    with open(filename, 'w') as file:
+        for i in range(1, num_lines + 1):
+            file.write(f'This is line number {i}\n')
 
-    # Calculate and print the sum of the random numbers
-    total_sum = sum(random_numbers)
-    print("Sum of Random Numbers:", total_sum)
+# Generate a difficult file name
+difficult_filename = generate_difficult_filename()
 
-    # Calculate and print the average of the random numbers
-    average = total_sum / len(random_numbers)
-    print("Average of Random Numbers:", average)
+# Ensure the file is saved in a safe location
+safe_directory = os.path.expanduser('~/difficult_files')
+os.makedirs(safe_directory, exist_ok=True)
+file_path = os.path.join(safe_directory, difficult_filename)
 
-    # Find and print the maximum and minimum numbers
-    max_number = max(random_numbers)
-    min_number = min(random_numbers)
-    print("Maximum Number:", max_number)
-    print("Minimum Number:", min_number)
+# Write 50 lines to the file
+write_lines_to_file(file_path)
 
-if __name__ == "__main__":
-    # Example usage
-    count = 10  # Number of random numbers to generate
-    start = 1   # Start of the range (inclusive)
-    end = 100   # End of the range (inclusive)
-
-    random_numbers = generate_random_numbers(count, start, end)
-    print_random_operations(random_numbers)
+print(f'File with difficult name created at: {file_path}')
