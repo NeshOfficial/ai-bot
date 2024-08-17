@@ -2,10 +2,7 @@ import string
 import random
 import os
 
-# Function to generate a difficult file name
-def generate_difficult_filename(length=50):
-    characters = string.ascii_letters + string.digits + string.punctuation
-    return ''.join(random.choice(characters) for _ in range(length))
+
 
 # Function to write 50 lines to a file
 def write_lines_to_file(filename, num_lines=50):
