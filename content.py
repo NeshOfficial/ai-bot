@@ -1,7 +1,8 @@
+import string
 import random
 import os
 
-# Function to generate a difficult file name
+
 
 # Function to write 50 lines to a file
 def write_lines_to_file(filename, num_lines=50):
