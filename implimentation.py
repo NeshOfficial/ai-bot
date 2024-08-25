@@ -1,4 +1,4 @@
-import requests
+
 from functools import wraps
 
 def exception_handler(func):
@@ -13,10 +13,11 @@ def exception_handler(func):
 
 @exception_handler
 def fetch_data_from_api(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.json()
+    # response = requests.get(url)
+    # response.raise_for_/assetsstatus()
+    # return response.json()
 
+    return [num for num in numbers if num % 2 == 0]
 def filter_even_numbers(numbers):
     return [num for num in numbers if num % 2 == 0]
 
