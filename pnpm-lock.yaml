@@ -963,8 +963,8 @@ importers:
         specifier: 0.6.0
         version: 0.6.0
       nanoid:
-        specifier: 3.3.6
-        version: 3.3.6
+        specifier: 5.0.7
+        version: 5.0.7
       react:
         specifier: ^18 || ^19
         version: 18.3.1
@@ -1327,8 +1327,8 @@ importers:
         specifier: 1.1.2
         version: 1.1.2
       nanoid:
-        specifier: 3.3.6
-        version: 3.3.6
+        specifier: 5.0.7
+        version: 5.0.7
       secure-json-parse:
         specifier: 2.7.0
         version: 2.7.0
@@ -11356,7 +11356,7 @@ packages:
       '@vue/devtools-kit': 7.3.3
       '@vue/devtools-shared': 7.3.5
       mitt: 3.0.1
-      nanoid: 3.3.6
+      nanoid: 3.3.7
       pathe: 1.1.2
       vite-hot-client: 0.2.3(vite@5.3.3)
     transitivePeerDependencies:
@@ -17641,7 +17641,6 @@ packages:
     resolution: {integrity: sha512-oLxFY2gd2IqnjcYyOXD8XGCftpGtZP2AbHbOkthDkvRywH5ayNtPVy9YlOPcHckXzbLTCHpkb7FB+yuxKV13pQ==}
     engines: {node: ^18 || >=20}
     hasBin: true
-    dev: true
 
   /napi-wasm@1.1.0:
     resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
