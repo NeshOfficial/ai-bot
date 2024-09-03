@@ -387,8 +387,8 @@ importers:
         specifier: latest
         version: 0.0.53(react@18.2.0)(zod@3.23.8)
       '@upstash/ratelimit':
-        specifier: ^0.4.3
-        version: 0.4.4
+        specifier: ^2.0.2
+        version: 2.0.2
       '@vercel/kv':
         specifier: ^0.2.2
         version: 0.2.4
@@ -500,8 +500,8 @@ importers:
         specifier: latest
         version: 0.0.53(react@18.2.0)(zod@3.23.8)
       '@upstash/ratelimit':
-        specifier: ^0.4.3
-        version: 0.4.4
+        specifier: ^2.0.2
+        version: 2.0.2
       '@vercel/kv':
         specifier: ^0.2.2
         version: 0.2.4
@@ -11141,17 +11141,17 @@ packages:
       vue: 3.4.38(typescript@5.5.4)
     dev: true
 
-  /@upstash/core-analytics@0.0.6:
-    resolution: {integrity: sha512-cpPSR0XJAJs4Ddz9nq3tINlPS5aLfWVCqhhtHnXt4p7qr5+/Znlt1Es736poB/9rnl1hAHrOsOvVj46NEXcVqA==}
+  /@upstash/core-analytics@0.0.10:
+    resolution: {integrity: sha512-7qJHGxpQgQr9/vmeS1PktEwvNAF7TI4iJDi8Pu2CFZ9YUGHZH4fOP5TfYlZ4aVxfopnELiE4BS4FBjyK7V1/xQ==}
     engines: {node: '>=16.0.0'}
     dependencies:
-      '@upstash/redis': 1.25.1
+      '@upstash/redis': 1.34.0
     dev: false
 
-  /@upstash/ratelimit@0.4.4:
-    resolution: {integrity: sha512-y3q6cNDdcRQ2MRPRf5UNWBN36IwnZ4kAEkGoH3i6OqdWwz4qlBxNsw4/Rpqn9h93+Nx1cqg5IOq7O2e2zMJY1w==}
+  /@upstash/ratelimit@2.0.2:
+    resolution: {integrity: sha512-1J5Szbu5r9OTV2F95SinFVo5DQ7jm1Gmal9xD7HrcBlOxyn7YXToEsK2j6lSNJEhklvKl96Ntzzd3Q/yR9GB2A==}
     dependencies:
-      '@upstash/core-analytics': 0.0.6
+      '@upstash/core-analytics': 0.0.10
     dev: false
 
   /@upstash/redis@1.24.3:
@@ -11160,8 +11160,8 @@ packages:
       crypto-js: 4.2.0
     dev: false
 
-  /@upstash/redis@1.25.1:
-    resolution: {integrity: sha512-ACj0GhJ4qrQyBshwFgPod6XufVEfKX2wcaihsEvSdLYnY+m+pa13kGt1RXm/yTHKf4TQi/Dy2A8z/y6WUEOmlg==}
+  /@upstash/redis@1.34.0:
+    resolution: {integrity: sha512-TrXNoJLkysIl8SBc4u9bNnyoFYoILpCcFJcLyWCccb/QSUmaVKdvY0m5diZqc3btExsapcMbaw/s/wh9Sf1pJw==}
     dependencies:
       crypto-js: 4.2.0
     dev: false
