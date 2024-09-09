@@ -16,7 +16,7 @@
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@types/node": "^22",
     "@vue/reactivity": "^3.4.31",
-    "@vue/runtime-core": "^3.4.31",
+    "@vue/runtime-core": "^3.5.3",
     "@vue/runtime-dom": "^3.4.38",
     "@vue/shared": "^3.5.1",
     "ai": "latest",
