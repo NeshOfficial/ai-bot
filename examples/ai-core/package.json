@@ -13,7 +13,7 @@
     "@ai-sdk/openai": "latest",
     "@opentelemetry/sdk-node": "0.52.0",
     "@opentelemetry/auto-instrumentations-node": "0.50.0",
-    "@opentelemetry/sdk-trace-node": "1.25.0",
+    "@opentelemetry/sdk-trace-node": "1.26.0",
     "ai": "latest",
     "dotenv": "16.4.5",
     "mathjs": "12.4.2",
