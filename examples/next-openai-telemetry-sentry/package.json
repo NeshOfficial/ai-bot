@@ -11,7 +11,7 @@
   "dependencies": {
     "@ai-sdk/openai": "latest",
     "@ai-sdk/react": "latest",
-    "@opentelemetry/api-logs": "0.52.1",
+    "@opentelemetry/api-logs": "0.53.0",
     "@opentelemetry/instrumentation": "0.52.1",
     "@opentelemetry/sdk-logs": "0.53.0",
     "@sentry/nextjs": "^8.22.0",
