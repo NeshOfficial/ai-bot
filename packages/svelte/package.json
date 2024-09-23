@@ -32,7 +32,7 @@
     "@vercel/ai-tsconfig": "workspace:*",
     "eslint": "^7.32.0",
     "eslint-config-vercel-ai": "workspace:*",
-    "tsup": "^8.2.4",
+    "tsup": "^8.3.0",
     "typescript": "5.5.4"
   },
   "peerDependencies": {
